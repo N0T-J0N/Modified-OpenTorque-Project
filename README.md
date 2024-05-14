@@ -102,7 +102,7 @@ The picture displays the position, velocity, and current graphs during the maxim
 Future tests of this actuator should involve implementing a 24V supply to increase the current limit to 80A. Implementing the increased amperage should involve temperature tests during operation, since the motor will likely increase in temperature, causing a reduction in performance. 
 
 ## 5. Usage
-To make your own Modified OpenTorque actuator, you should buy the [equipment](Modified-OpenTorque-Project/Modified-OpenTorque_PO/Modified-OpenTorque_Equipment_PO.xlsx) using the given PO, then buy the components for the [actuator](Modified-OpenTorque-Project/Modified-OpenTorque_PO/Modified-OpenTorque_Actuator_PO.xlsx). The assembly follows the [process](https://discourse.odriverobotics.com/t/opentorque-project-new-design/8280) by user acisre. The modified parts of the assembly should be fairly obvious. If you are having trouble, refer to the assembly in the given STEP file.
+To make your own Modified OpenTorque actuator, you should buy the [equipment](/Modified-OpenTorque_PO/Modified-OpenTorque_Equipment_PO.xlsx) using the given PO, then buy the components for the [actuator](/Modified-OpenTorque_PO/Modified-OpenTorque_Actuator_PO.xlsx). The assembly follows the [process](https://discourse.odriverobotics.com/t/opentorque-project-new-design/8280) by user acisre. The modified parts of the assembly should be fairly obvious. If you are having trouble, refer to the assembly in the given STEP file.
 
 ## 6. References
 [1] https://hackaday.io/project/159404-opentorque-actuator
