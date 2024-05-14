@@ -95,6 +95,7 @@ Based on torque testing, the following values were obtained:
 The picture displays the position, velocity, and current graphs during the maximum torque test using position control. The limit of approximately 40A was reached during the test, which is displayed in the current vs time graph. If “DC bus overvoltage trip-level” was set to 24V instead of 50V and a 24V supply was used instead of a 48V supply, the internal current limit would increase to 80A and likely increase maximum torque while reducing velocity. Additionally, if the torque was not limited to 20% of the maximum value, the torque value could increase when operating using torque control mode. 
 
 ![Modified-OpenTorque-Project_8](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_8.PNG)
+![Modified-OpenTorque-Project_6](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_6.PNG)
 
 ## 4. Future Work
 Future tests of this actuator should involve implementing a 24V supply to increase the current limit to 80A. Implementing the increased amperage should involve temperature tests during operation, since the motor will likely increase in temperature, causing a reduction in performance. 
@@ -111,7 +112,4 @@ Future tests of this actuator should involve implementing a 24V supply to increa
 [5] https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html
 
 ## 6. Acknowledgements
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
+The author acknowledges Logan Forcier for his work on the modified CAD models of the OpenTorque project and Alvin Ye for his work on implementing a Teensy 4.1 and ROS to communicate with the ODrive S1.
