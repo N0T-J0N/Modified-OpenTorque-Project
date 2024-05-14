@@ -9,8 +9,9 @@
 - 2.3. [Physical Testing Methodology](#33-physical-testing-methodology)
 3. [Results](#3-results)
 4. [Future Work](#4-future-work)
-5. [References](#5-references)
-6. [Acknowledgements](#6-acknowledgements)
+5. [Usage](#4-usage)
+6. [References](#6-references)
+7. [Acknowledgements](#7-acknowledgements)
 
 ## 1. Introduction
 The OpenTorque project [1] is a robotic actuator developed for legged robots originally by Gabrael Levine and updated [2] by user acisre. The construction of the actuator involves a 100KV brushless DC motor, motor controller, 3D-printed carbon-fiber enclosure, and planetary gearbox. According to the original creator, the actuator performance is summarized in the table below:
@@ -100,7 +101,10 @@ The picture displays the position, velocity, and current graphs during the maxim
 ## 4. Future Work
 Future tests of this actuator should involve implementing a 24V supply to increase the current limit to 80A. Implementing the increased amperage should involve temperature tests during operation, since the motor will likely increase in temperature, causing a reduction in performance. 
 
-## 5. References
+## 5. Usage
+To make your own Modified OpenTorque actuator, you should buy the [equipment](Modified-OpenTorque-Project/Modified-OpenTorque_PO/Modified-OpenTorque_Equipment_PO.xlsx) using the given PO, then buy the components for the [actuator](Modified-OpenTorque-Project/Modified-OpenTorque_PO/Modified-OpenTorque_Actuator_PO.xlsx). The assembly follows the [process](https://discourse.odriverobotics.com/t/opentorque-project-new-design/8280) by user acisre. The modified parts of the assembly should be fairly obvious. If you are having trouble, refer to the assembly in the given STEP file.
+
+## 6. References
 [1] https://hackaday.io/project/159404-opentorque-actuator
 
 [2] https://discourse.odriverobotics.com/t/opentorque-project-new-design/8280
@@ -111,5 +115,5 @@ Future tests of this actuator should involve implementing a 24V supply to increa
 
 [5] https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html
 
-## 6. Acknowledgements
+## 7. Acknowledgements
 The author acknowledges Logan Forcier for his work on the modified CAD models of the OpenTorque project and Alvin Ye for his work on implementing a Teensy 4.1 and ROS to communicate with the ODrive S1.
