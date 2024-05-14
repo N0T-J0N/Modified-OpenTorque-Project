@@ -3,10 +3,10 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction)  
-2. [Methodology](#2-Methodology)
-- 2.1. [3D-Printing Methodology](#31-3D-Printing-Methodology)
-- 2.2. [ODrive Methodology](#32-ODrive-Methodology)
-- 2.3. [Physical Testing Methodology](#33-Physical-Testing-Methodology)
+2. [Methodology](#2-methodology)
+- 2.1. [3D-Printing Methodology](#31-3d-printing-methodology)
+- 2.2. [ODrive Methodology](#32-odrive-methodology)
+- 2.3. [Physical Testing Methodology](#33-physical-testing-methodology)
 3. [Results](#3-results)
 4. [Future Work](#4-future-work)
 5. [References](#5-references)
@@ -99,9 +99,13 @@ Future tests of this actuator should involve implementing a 24V supply to increa
 
 ## 5. References
 [1] https://hackaday.io/project/159404-opentorque-actuator
+
 [2] https://discourse.odriverobotics.com/t/opentorque-project-new-design/8280
+
 [3] https://www.youtube.com/watch?v=6lW2YGQQIQ4
+
 [4] https://bambulab.com/en-us/filament-guide
+
 [5] https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html
 
 ## 6. Acknowledgements
