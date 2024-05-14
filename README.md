@@ -32,7 +32,7 @@ According to tests performed by another user Skyentific [3], the actuator perfor
 
 Additionally, for both tests, the motor was able to hold 20 lbs on a 12-inch lever arm.Due to the age of the OpenTorque project, many original parts have been discontinued, therefore parts have been replaced. Parts which have been replaced include the original motor, encoder, and motor controller. The picture below displays the CAD model of the newly modified OpenTorque actuator:
 
-PICTURE
+![Modified-OpenTorque-Project_1](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_1.PNG)
 
 Due to the modified structure, motor, encoder, and controller, the actuator must be retested to determine the actual torque output of the actuator. 
 
@@ -49,7 +49,7 @@ Robotic actuators generally experience great force and strain during operation, 
 
 CF based filaments are generally stronger than standard filaments. Since 3D-printed components and moving gearboxes are difficult to conduct force simulations upon, the following decision tree was applied when selecting filaments for components:
 
-PICTURE
+![Modified-OpenTorque-Project_2](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_2.PNG)
 
 Generally, with moving components, the toughest filaments are advisable to prevent wear during continuous use. Wear may cause the moving components (gearbox) to fail and may lead to reduced actuator performance. Tougher filaments (PLA-CF) are advisable on structural but not moving components to ensure stiffness. PLA is acceptable on electronic or cosmetic components to save cost since these parts do not generally experience force and strain. All 3D-print settings and components are included within the given 3MF files. 
 
@@ -58,7 +58,9 @@ Robotic actuators require a controller and encoder to control the position, velo
 
 Once physically connected, the ODrive S1 was connected to the ODrive GUI. The following settings were applied to safely operate the actuator:
 
-Many picture
+![Modified-OpenTorque-Project_3](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_3.PNG)
+![Modified-OpenTorque-Project_4](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_4.PNG)
+![Modified-OpenTorque-Project_5](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_5.PNG)
 
 All settings are applied to safely operate the actuator. Once settings were set, a calibration sequence was performed, and the dashboard was accessed to manually control position, velocity, and torque. Removing safety will likely increase the performance of the actuator. 
 
@@ -69,7 +71,7 @@ To test the maximum torque output of the modified OpenTorque actuator, force mus
 
 The following experimental setup was used to determine torque:
 
-PICTURE
+![Modified-OpenTorque-Project_7](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_7.PNG)
 
 ## 3. Results
 Based on torque testing, the following values were obtained:
@@ -92,7 +94,7 @@ Based on torque testing, the following values were obtained:
 
 The picture displays the position, velocity, and current graphs during the maximum torque test using position control. The limit of approximately 40A was reached during the test, which is displayed in the current vs time graph. If “DC bus overvoltage trip-level” was set to 24V instead of 50V and a 24V supply was used instead of a 48V supply, the internal current limit would increase to 80A and likely increase maximum torque while reducing velocity. Additionally, if the torque was not limited to 20% of the maximum value, the torque value could increase when operating using torque control mode. 
 
-PICTURE
+![Modified-OpenTorque-Project_8](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_8.PNG)
 
 ## 4. Future Work
 Future tests of this actuator should involve implementing a 24V supply to increase the current limit to 80A. Implementing the increased amperage should involve temperature tests during operation, since the motor will likely increase in temperature, causing a reduction in performance. 
