@@ -31,7 +31,7 @@ According to tests performed by another user Skyentific [3], the actuator perfor
 | 30 | 19.1295 |
 | 40 | 25.3098 |
 
-Additionally, for both tests, the motor was able to hold 20 lbs on a 12-inch lever arm.Due to the age of the OpenTorque project, many original parts have been discontinued, therefore parts have been replaced. Parts which have been replaced include the original motor, encoder, and motor controller. The picture below displays the CAD model of the newly modified OpenTorque actuator:
+Additionally, for both tests, the motor was able to hold 20 lbs on a 12-inch lever arm. Due to the age of the OpenTorque project, many original parts have been discontinued, therefore parts have been replaced. Parts which have been replaced include the original motor, encoder, and motor controller. The picture below displays the CAD model of the newly modified OpenTorque actuator:
 
 ![Modified-OpenTorque-Project_1](/Modified-OpenTorque-Project_IMGs/Modified-OpenTorque-Project_1.PNG)
 
